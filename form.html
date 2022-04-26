@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form method="post" action="priyanka.php">
+    
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th colspan="2">sign up</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input 
+                    type="text"
+                     name="name"
+                     required
+                     placeholder="Your Name"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+            <select id="Country" name="Country">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Srilanka">Srilanka</option>
+                <option value="USA">USA</option>
+              </select>
+                </td> 
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+            <input type="radio" name="gender" required>Male
+            <input type="radio" name="gender" required>Female
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>
+                    <input type="E-mail" name="E-mail" required placeholder="enter your email">
+                </td>
+            </tr>
+            <tr>
+                <td>Marital Status</td>
+                <td> <label><input type="radio" name="Marital Status" required>Married</label>
+                    <label><input type="radio" name="Marital Status" required>Unmarried <a</td>
+            </tr>
+            <tr>
+                <td>Intrest</td>
+                <td>
+                    <select id="Intrest" name="Intrest">
+                        <option value="study">study</option>
+                        <option value="Cooking">Co0king</option>
+                        <option value="Sleeping">Slepping</option>
+                        <option value="Travelling">Travelling</option>
+                        <option value="Game">Game</option>
+                        <option value="Singing">Singing</option>
+                        <option value="Dancing">Dancing</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td>
+                    <input type="text" name="comment" required placeholder="Your feedback">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    
+</body>
+</html>
